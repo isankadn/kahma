@@ -1,1 +1,1 @@
-# Kahma. Ginko compatible Open edX theme
+# Kahma. Ginkgo compatible Open edX theme
