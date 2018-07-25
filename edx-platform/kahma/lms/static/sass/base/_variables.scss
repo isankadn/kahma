@@ -1,5 +1,7 @@
+@import "../bootstrap/functions";
+@import "../bootstrap/variables";
 
-
+$faded-hr-image-1: linear-gradient(180deg, rgba(200, 200, 200, 0) 0%, rgba(200, 200, 200, 1) 50%, rgba(200, 200, 200, 0)) !default;
 $white: #ffffff;
 $body-background-color: $white;
 $x-dark: #34383a;
@@ -18,6 +20,18 @@ $action-primary-bg: lighten($brand-color, 10%);
 $action-primary-shadow: $brand-color !default;
 $link-color: $brand-color !default;
 
+$faded-hr-image-2: linear-gradient(180deg, rgba(200, 200, 200, 0) 0%, rgba(200, 200, 200, 1)) !default;
+$faded-hr-image-3: linear-gradient(180deg, rgba(200, 200, 200, 1) 0%, rgba(200, 200, 200, 0)) !default;
+$faded-hr-image-4: linear-gradient(180deg, rgba(240, 240, 240, 0) 0%, rgba(240, 240, 240, 1) 50%, rgba(240, 240, 240, 0)) !default;
+$faded-hr-image-5: linear-gradient(180deg, rgba(255, 255, 255, 0) 0%, rgba(255, 255, 255, 0.8) 50%, rgba(255, 255, 255, 0)) !default;
+$faded-hr-image-6: linear-gradient(90deg, rgba(255, 255, 255, 0) 0%, rgba(255, 255, 255, 0.6) 50%, rgba(255, 255, 255, 0)) !default;
 
 
-
+// system feedback-based colors
+$error-color: rgb(203, 7, 18) !default;
+$warning-color: rgb(255, 192, 31) !default;
+$confirm-color: rgb(0, 132, 1) !default;
+$active-color: $blue !default;
+$highlight-color: rgb(255, 255, 0) !default;
+$alert-color: rgb(212, 64, 64) !default;
+$success-color-hover: darken($success, 15%) !default;
