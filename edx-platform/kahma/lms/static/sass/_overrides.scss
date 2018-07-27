@@ -597,6 +597,9 @@ h6 {
 
 //Header
 header.header-main {
+  .nav-wrapper{
+    border: 1px solid #f8f9fa;
+  }
   min-height: 100px;
   .navbar-collapse {
     .collapsed-button {
