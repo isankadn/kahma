@@ -1,6 +1,7 @@
 @import "../bootstrap/functions";
 @import "../bootstrap/variables";
 
+
 $faded-hr-image-1: linear-gradient(180deg, rgba(200, 200, 200, 0) 0%, rgba(200, 200, 200, 1) 50%, rgba(200, 200, 200, 0)) !default;
 $white: #ffffff;
 $body-background-color: $white;
@@ -36,10 +37,9 @@ $serif: $georgia !default;
 $error-color: rgb(203, 7, 18) !default;
 $warning-color: rgb(255, 192, 31) !default;
 $confirm-color: rgb(0, 132, 1) !default;
-$active-color: $blue !default;
+$active-color: $purple !default;
 $highlight-color: rgb(255, 255, 0) !default;
 $alert-color: rgb(212, 64, 64) !default;
 $success-color-hover: darken($success, 15%) !default;
 
-
-@import 'lms/static/sass/bootstrap/variables.scss';
+//@import "../bootstrap/bootstrap";

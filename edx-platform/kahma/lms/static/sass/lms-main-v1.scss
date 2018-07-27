@@ -10,10 +10,10 @@ $static-path: '../..';
 // ====================
 
 // base - utilities
-@import 'base/reset';
+//@import 'base/reset';
 @import 'base/variables';
-@import 'base/ginkgo_styles';
-@import 'base/mixins';
+@import 'base/theme_styles';
+//@import 'base/mixins';
 
 // This comment is used by preprocess_assets.py to include resources from a
 // theme, for old-style deprecated theming.
