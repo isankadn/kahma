@@ -228,43 +228,10 @@ body {
   .window-wrap {
     background-color: $body-background-color !important;
   }
+
   .row {
     margin: 0;
     max-width: 100%;
-    .banner {
-      background: url("../images/hero-home-page.jpg") no-repeat top center !important;
-      background-size: cover !important;
-      height: 408px;
-      .banner-text-wrap {
-        width: 60%;
-        margin-top: 170px;
-        margin-left: auto;
-        margin-right: auto;
-        padding: 10px;
-        background: rgba(0, 0, 0, 0.4);
-      }
-      .banner-text1 {
-        display: inline-block;
-        width: 100%;
-      }
-      .banner-text2 {
-        display: inline-block;
-        width: 100%;
-      }
-      h1 {
-        text-align: center;
-        margin: auto;
-        color: #fff;
-        font-size: 1.3em;
-      }
-      h2 {
-        text-align: center;
-        margin: auto;
-        color: #fff;
-        font-weight: bold;
-        font-size: 2em;
-      }
-    }
   }
 }
 
@@ -311,6 +278,40 @@ a {
 }
 
 .grid-container {
+  .banner {
+    background: url("../images/hero-home-page.jpg") no-repeat top center !important;
+    background-size: cover !important;
+    height: 408px;
+    .banner-text-wrap {
+      width: 60%;
+      margin-top: 170px;
+      margin-left: auto;
+      margin-right: auto;
+      padding: 10px;
+      background: rgba(0, 0, 0, 0.4);
+    }
+    .banner-text1 {
+      display: inline-block;
+      width: 100%;
+    }
+    .banner-text2 {
+      display: inline-block;
+      width: 100%;
+    }
+    h1 {
+      text-align: center;
+      margin: auto;
+      color: #fff;
+      font-size: 1.3em;
+    }
+    h2 {
+      text-align: center;
+      margin: auto;
+      color: #fff;
+      font-weight: bold;
+      font-size: 2em;
+    }
+  }
   padding: 0;
   max-width: 1200px;
 }
@@ -1193,7 +1194,6 @@ header.header-main {
 //bottom-banner-container
 .bottom-banner-container {
   background-color: #cfccd7 !important;
-  //background: url("../images/ bottom-banner.jpg") center center no-repeat;
   height: 150px;
   .bottom-banner-text {
     width: 1200px;
@@ -2020,7 +2020,6 @@ header.header-main {
   }
   .bottom-banner-container {
     background-color: $white !important;
-    background: url("../images/ bottom-banner.jpg") center center no-repeat;
     height: 129px;
     .bottom-banner-text {
       width: 100%;
