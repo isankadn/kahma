@@ -25,7 +25,7 @@
           ## limiting the course number by using HOMEPAGE_COURSE_MAX as the maximum number of courses
           %for course in courses[:homepage_course_max]:
 
-          % if course.display_org_with_default != 'edX':
+          % if course.display_org_with_default != 'KahmaVet':
           <li class="courses-listing-item">
             ${course.display_org_with_default}
               <%include file="course.html" args="course=course" />
